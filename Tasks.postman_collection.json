@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "80617b7a-d802-4a8c-b285-b02a8b1478df",
+		"name": "Tasks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7963646",
+		"_collection_link": "https://galactic-trinity-438077.postman.co/workspace/65eb4c4c-86e4-4ecd-bdc6-aceea51a7e74/collection/7963646-80617b7a-d802-4a8c-b285-b02a8b1478df?action=share&creator=7963646&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "all tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "one task",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/tasks/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"tasks",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all tasks by parent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/tasks?taskParentId=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "taskParentId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"{{$randomVerb}}\",\n    \"description\": \"{{$randomCatchPhrase}}\",\n    \"dueDateTime\": null,\n    \"completedDateTime\": null,\n    \"taskParentId\": null,\n    \"applicationId\": 1,\n    \"createdAccountId\": 1,\n    \"completedAccountId\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3333/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "full update task",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"{{$randomVerb}}\",\n    \"description\": \"{{$randomCatchPhrase}}\",\n    \"dueDateTime\": null,\n    \"completedDateTime\": null,\n    \"taskParentId\": null,\n    \"applicationId\": 1,\n    \"createdAccountId\": 1,\n    \"completedAccountId\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3333/tasks/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"tasks",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "partial update task",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"completedDateTime\": \"{{$isoTimestamp}}\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3333/tasks/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"tasks",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete task",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3333/tasks/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"tasks",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

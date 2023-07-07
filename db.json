@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Eat",
+      "description": "Eating a healthy diet that includes lots of fruit, vegetables, whole grains and a moderate amount of unsaturated fats, meat and dairy can help you maintain a steady weight.",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "title": "Sleep",
+      "description": "Numerous studies have shown that adequate sleep can enhance fine motor skills, reaction time, muscular power, muscular endurance, and problem-solving skills.",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Code",
+      "description": "As noted by Steve Jobs, coding teaches the mind to view problems from multiple perspectives and think creatively about solving them. Coding also encompasses much more than math; it requires an ability to create and troubleshoot projects and a knack for reasoning through the development process.",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "Repeat",
+      "description": "Fostering the habit of habit builds an infrastructure in your brain that makes virtuous behavior more automatic. The result? More success in realizing your goals and the freeing up of self-control reserves to take on more challenging goals.",
+      "completed": false
+    }
+  ]
+}

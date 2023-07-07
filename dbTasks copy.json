@@ -1,0 +1,92 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Have lunch",
+      "description": "I have one hour to make something nice",
+      "dueDateTime": "2023-05-25 14:00:00",
+      "completedDateTime": "2023-05-25 13:55:00",
+      "taskParentId": null,
+      "applicationId": 1,
+      "createdAccountId": 1,
+      "completedAccountId": 1
+    },
+    {
+      "id": 2,
+      "name": "Take items out of the fridge",
+      "description": null,
+      "dueDateTime": null,
+      "completedDateTime": "2023-05-25 13:02:00",
+      "taskParentId": 1,
+      "applicationId": 1,
+      "createdAccountId": 1,
+      "completedAccountId": 1
+    },
+    {
+      "id": 3,
+      "name": "Prepare the ingredients",
+      "description": null,
+      "dueDateTime": null,
+      "completedDateTime": "2023-05-25 13:11:00",
+      "taskParentId": 1,
+      "applicationId": 1,
+      "createdAccountId": 1,
+      "completedAccountId": 1
+    },
+    {
+      "id": 4,
+      "name": "Cook the meal",
+      "description": null,
+      "dueDateTime": null,
+      "completedDateTime": "2023-05-25 13:41:00",
+      "taskParentId": 1,
+      "applicationId": 1,
+      "createdAccountId": 1,
+      "completedAccountId": 1
+    },
+    {
+      "id": 5,
+      "name": "Eat the meal",
+      "description": null,
+      "dueDateTime": null,
+      "completedDateTime": "2023-05-25 09:00:00",
+      "taskParentId": 1,
+      "applicationId": 1,
+      "createdAccountId": 1,
+      "completedAccountId": 1
+    },
+    {
+      "id": 6,
+      "name": "Go to the toilet",
+      "description": "Remember to take a magazine with you",
+      "dueDateTime": "2023-05-25 16:00:00",
+      "completedDateTime": "2023-05-25 16:15:00",
+      "taskParentId": null,
+      "applicationId": 1,
+      "createdAccountId": 1,
+      "completedAccountId": 1
+    },
+    {
+      "id": 7,
+      "name": "Train for Parkrun",
+      "description": "Try to run 5km in 30 minutes",
+      "dueDateTime": "2023-05-25 17:00:00",
+      "completedDateTime": null,
+      "taskParentId": null,
+      "applicationId": 1,
+      "createdAccountId": 1,
+      "completedAccountId": 1
+    },
+    {
+      "name": "back up",
+      "description": "Reverse-engineered contextually-based infrastructure",
+      "dueDateTime": null,
+      "completedDateTime": null,
+      "taskParentId": null,
+      "applicationId": 1,
+      "createdAccountId": 1,
+      "completedAccountId": 1,
+      "id": 8
+    }
+  ]
+}

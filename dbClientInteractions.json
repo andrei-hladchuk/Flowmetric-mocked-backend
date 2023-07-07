@@ -1,0 +1,85 @@
+{
+  "clientInteractionTypes": [
+    {
+      "id": 1,
+      "name": "Phone Call"
+    },
+    {
+      "id": 2,
+      "name": "Email"
+    },
+    {
+      "id": 3,
+      "name": "Online Meeting"
+    },
+    {
+      "id": 4,
+      "name": "In-Person Meeting"
+    }
+  ],
+  "clientInteractions": [
+    {
+      "id": 1,
+      "clientInteractionType": 1,
+      "description": "Called to discuss the Spur application",
+      "interactionDateTime": "2023-05-19 13:37:00",
+      "nextInteractionDateTime": "2023-05-19 15:00:00",
+      "accountId": 1,
+      "applicationId": 1
+    },
+    {
+      "id": 2,
+      "clientInteractionType": 2,
+      "description": "Sent an email to follow up",
+      "interactionDateTime": "2023-05-19 15:05:00",
+      "nextInteractionDateTime": "2023-05-22 09:00:00",
+      "accountId": 1,
+      "applicationId": 1
+    },
+    {
+      "id": 3,
+      "clientInteractionType": 3,
+      "description": "Had an online meeting to discuss the Spur application",
+      "interactionDateTime": "2023-05-22 09:00:00",
+      "nextInteractionDateTime": "2023-05-23 13:00:00",
+      "accountId": 1,
+      "applicationId": 1
+    },
+    {
+      "id": 4,
+      "clientInteractionType": 4,
+      "description": "Met in person for lunch and to finalise the Spur application",
+      "interactionDateTime": "2023-05-23 13:01:00",
+      "nextInteractionDateTime": "2023-05-24 13:00:00",
+      "accountId": 1,
+      "applicationId": 1
+    },
+    {
+      "id": 5,
+      "clientInteractionType": 1,
+      "description": "Called to discuss missing documents",
+      "interactionDateTime": "2023-05-24 08:19:00",
+      "nextInteractionDateTime": "2023-05-25 09:00:00",
+      "accountId": 1,
+      "applicationId": 1
+    },
+    {
+      "id": 6,
+      "clientInteractionType": 1,
+      "description": "Sent an email to confirm receipt of documents",
+      "interactionDateTime": "2023-05-25 17:13:00",
+      "nextInteractionDateTime": "2023-05-26 09:00:00",
+      "accountId": 1,
+      "applicationId": 1
+    },
+    {
+      "id": 7,
+      "clientInteractionType": 4,
+      "description": "Diverse content-based customer loyalty",
+      "interactionDateTime": "Wed May 17 2023 02:16:38 GMT+0200 (South Africa Standard Time)",
+      "nextInteractionDateTime": "Mon Oct 02 2023 10:21:27 GMT+0200 (South Africa Standard Time)",
+      "accountId": 1,
+      "applicationId": 1
+    }
+  ]
+}

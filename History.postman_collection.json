@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "244620f6-d91a-43d3-98cd-1745282f00fd",
+		"name": "History",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7963646"
+	},
+	"item": [
+		{
+			"name": "all Activities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/activities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"activities"
+					]
+				}
+			},
+			"response": []
+		},
+        {
+			"name": "all Accounts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+        {
+			"name": "all History",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/history",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"history"
+					]
+				}
+			},
+			"response": []
+		}
+		
+	],
+	"variable": [
+		{
+			"key": "clientInteractionType",
+			"value": ""
+		}
+	]
+}

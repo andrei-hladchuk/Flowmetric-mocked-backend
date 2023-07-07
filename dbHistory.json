@@ -1,0 +1,76 @@
+{
+    "accounts": [
+      {
+        "id": 1,
+        "name": "Andrei Hladchuk"
+      },
+      {
+        "id": 2,
+        "name": "Mary Jane"
+      },
+      {
+        "id": 3,
+        "name": "John Smith"
+      },
+      {
+        "id": 4,
+        "name": "Jason Momoa"
+      }
+    ],
+    "actions": [
+        {
+          "id": 1,
+          "title": "Create"
+        },
+        {
+          "id": 2,
+          "title": "Read"
+        },
+        {
+          "id": 3,
+          "title": "Upload"
+        },
+        {
+          "id": 4,
+          "title": "Update"
+        }
+      ],
+    "history": [
+      {
+        "id": 1,
+        "account": 1,
+        "activity": 2,
+        "time": "2023-05-19 13:37:00",
+        "action": "Application created"
+      },
+      {
+        "id": 2,
+        "account": 1,
+        "activity": 1,
+        "time": "2023-05-19 13:37:00",
+        "action": "User uploaded document"
+      },
+      {
+        "id": 3,
+        "account": 2,
+        "activity": 3,
+        "time": "2023-05-19 13:37:00",
+        "action": "Application was set to Overdue"
+      },
+      {
+        "id": 4,
+        "account": 2,
+        "activity": 4,
+        "time": "2023-05-19 13:37:00",
+        "action": "Status changed to In Progress"
+      },
+      {
+        "id": 5,
+        "account": 3,
+        "activity": 3,
+        "time": "2023-05-19 13:37:00",
+        "action": "User captured the financial requirements"
+      }
+    ]
+  }
+  

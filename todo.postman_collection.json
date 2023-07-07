@@ -1,0 +1,119 @@
+{
+  "info": {
+    "_postman_id": "bbae0b6f-5de2-45e3-a51b-27a6b5f12971",
+    "name": "todo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "7963646"
+  },
+  "item": [
+    {
+      "name": "all todos",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://localhost:3000/todos",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["todos"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "one todo",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/todos/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["todos", "1"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "create a todo",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"title\": \"Give up\",\n    \"description\": \"If you’re looking for a happy ending and can’t seem to find one, maybe it’s time you start looking for a new beginning instead…\",\n    \"completed\": false\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/todos",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["todos"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "update todo",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\": 1,\n    \"title\": \"Eat\",\n    \"description\": \"Eat junk foods only for taste not for slim waist.\",\n    \"completed\": true\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/todos/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["todos", "1"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "delete todo",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/todos/5",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["todos", "5"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
